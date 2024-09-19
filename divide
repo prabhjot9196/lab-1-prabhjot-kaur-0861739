@@ -1,0 +1,9 @@
+def divide(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Cannot divide by zero!"
+
+# Example usage:
+result_divide = divide(42, 7)
+print(f"Division result: {result_divide}")
